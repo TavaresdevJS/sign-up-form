@@ -73,3 +73,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+h1 {
+  font-family: 'Yuji Syuku', serif;
+}
