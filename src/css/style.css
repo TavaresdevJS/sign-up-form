@@ -116,3 +116,14 @@ h6 {
   color: white;
   font-size: 4rem;
 }
+
+.sign-up-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 10% 17% 0 5%;
+}
+
+.second-text {
+  margin-bottom: 2rem;
+}
