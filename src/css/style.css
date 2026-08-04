@@ -76,19 +76,43 @@ h6 {
 
 .container {
   display: flex;
-  height: 100dvh;
+  height: 100vh;
+  background-color: #f7f7f7;
 }
 
 .img-container {
   flex: 0 1 35%;
+  position: relative;
+  background-size: cover;
 }
 
 .sign-up-form {
   flex: 1 1 65%;
 }
 
-.img-container img {
+.img-container > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.logo-space {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+}
+
+.logo {
+  width: 20%;
+}
+
+.title {
+  font-family: 'Yuji Syuku', serif;
+  color: white;
+  font-size: 100px;
 }
