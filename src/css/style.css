@@ -86,6 +86,17 @@ h6 {
   background-size: cover;
 }
 
+.img-container p {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  opacity: 0.8;
+  color: white;
+}
+
 .sign-up-form {
   flex: 1 1 65%;
 }
@@ -202,7 +213,7 @@ a:hover {
 }
 
 input {
-  border: 2px solid #e5e7eb;
+  border: 1px solid #e5e7eb;
   border-radius: 4px;
 }
 
@@ -210,4 +221,8 @@ input:focus {
   border-color: #007bff;
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+input[type='password']:user-invalid {
+  border-color: #dc2626;
 }
