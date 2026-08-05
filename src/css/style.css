@@ -170,7 +170,7 @@ h6 {
 .create-account button {
   background-color: #d82b90;
   color: white;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
   border-radius: 8px;
@@ -183,7 +183,7 @@ h6 {
 
 .create-account p {
   font-size: 1.2rem;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 1.5rem;
 }
 button:hover {
