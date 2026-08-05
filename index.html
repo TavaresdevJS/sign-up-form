@@ -30,7 +30,7 @@
           <p class="second-text">Sign up <em>now</em> to get started.</p>
           <p>You <em>know </em>you want to.</p>
         </div>
-        <form class="form" method="POST">
+        <form class="form" method="POST" id="form">
           <p>Let's do this!</p>
           <div class="row">
             <div class="form-group">
@@ -49,7 +49,13 @@
             </div>
             <div class="form-group">
               <label for="user-phone">PHONE NUMBER</label>
-              <input type="tel" name="user-phone" id="user-phone" />
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                minlength="10"
+                maxlength="11"
+              />
             </div>
           </div>
           <div class="row">
@@ -60,6 +66,7 @@
                 name="user-password"
                 id="user-password"
                 required
+                minlength="8"
               />
             </div>
             <div class="form-group">
@@ -69,12 +76,13 @@
                 name="confirm-password"
                 id="confirm-password"
                 required
+                minlength="8"
               />
             </div>
           </div>
         </form>
         <div class="create-account">
-          <button type="button">Create Account</button>
+          <button type="submit" form="form">Create Account</button>
           <p>Already have an account? <a href="#">Log in</a></p>
         </div>
       </div>
