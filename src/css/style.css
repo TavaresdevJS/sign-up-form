@@ -200,3 +200,7 @@ a {
 a:hover {
   color: #f777c1;
 }
+
+input {
+  border: 1px solid #e5e7eb;
+}
