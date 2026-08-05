@@ -180,3 +180,23 @@ h6 {
   transition: box-shadow 0.2s ease;
   border: 1px solid #596d48;
 }
+
+.create-account p {
+  font-size: 1.2rem;
+  font-family: 'Roboto' sans-serif;
+  margin-top: 1.5rem;
+}
+button:hover {
+  background-color: #f777c1;
+  color: black;
+  cursor: pointer;
+}
+
+a {
+  color: #d82b90;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f777c1;
+}
