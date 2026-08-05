@@ -202,5 +202,11 @@ a:hover {
 }
 
 input {
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
 }
