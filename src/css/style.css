@@ -120,10 +120,63 @@ h6 {
 .sign-up-title {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 10% 17% 0 5%;
 }
 
 .second-text {
   margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 3vw;
+  box-shadow: 5px 5px 20px grey;
+}
+
+.form p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.form-group label {
+  font-size: 0.75rem;
+  letter-spacing: 0.05rem;
+}
+
+.create-account {
+  margin-left: 2rem;
+  padding: 2rem;
+}
+.create-account button {
+  background-color: #d82b90;
+  color: white;
+  font-family: 'Roboto' sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  width: 12rem;
+  padding: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease;
+  border: 1px solid #596d48;
 }

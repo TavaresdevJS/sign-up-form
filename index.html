@@ -8,10 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yuji+Syuku&display=swap"
       rel="stylesheet"
     />
@@ -34,8 +30,43 @@
           <p class="second-text">Sign up <em>now</em> to get started.</p>
           <p>You <em>know </em>you want to.</p>
         </div>
-        <form class="form"></form>
-        <div class="create-account"></div>
+        <form class="form" method="POST">
+          <p>Let's do this!</p>
+          <div class="row">
+            <div class="form-group">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label for="user-email">EMAIL</label>
+              <input type="email" id="user-email" />
+            </div>
+            <div class="form-group">
+              <label for="user-phone">PHONE NUMBER</label>
+              <input type="tel" id="user-phone" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label for="user-password">PASSWORD</label>
+              <input type="password" id="user-password" />
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" />
+            </div>
+          </div>
+        </form>
+        <div class="create-account">
+          <button type="button">Create Account</button>
+          <p>Already have an account? <a>Log in</a></p>
+        </div>
       </div>
     </div>
     <script src="src/js/script.js"></script>
